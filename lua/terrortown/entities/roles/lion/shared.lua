@@ -29,7 +29,6 @@ function ROLE:PreInitialize()
 end
 
 if CLIENT then
-	roles.SetBaseRole(self, ROLE_LION)
 
 	function ROLE:Initialize()
 		-- Role specific language elements
