@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+	"name" "[TTT2] Lion"
+	"author_name" "Author Name"
+	"info" "{
+	"description": "Description",
+	"type": "servercontent",
+	"tags": [
+		"fun",
+		"roleplay"
+	]
+}"
+}
