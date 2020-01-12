@@ -17,6 +17,8 @@ function ROLE:PreInitialize()
 	self.scoreKillsMultiplier       = 2
 	self.scoreTeamKillsMultiplier   = 4
 	self.unknownTeam                = true
+	self.preventWin 				= true
+	self.notSelectable			    = true
 
 	self.defaultTeam                = TEAM_LION
 
