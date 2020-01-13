@@ -14,6 +14,7 @@ function ROLE:PreInitialize()
 	self.scoreKillsMultiplier       = 2
 	self.scoreTeamKillsMultiplier   = 4
 	self.unknownTeam                = true
+	self.preventWin					= true
 
 	self.defaultTeam                = TEAM_TRAITOR
 	self.defaultEquipment 			= TRAITOR_EQUIPMENT
@@ -75,6 +76,7 @@ if SERVER then
 	end		
 
 	--We need the masked lion´s identity--
+
 
 	--When the masked lion kills his first colleague, he will be revealed--
 	if lion_killed_traitor then
