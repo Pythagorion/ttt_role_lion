@@ -53,6 +53,15 @@ if CLIENT then
 end
 
 if SERVER then
+	-- Give Loadout on respawn and rolechange
+	function ROLE:GiveRoleLoadout(ply, isRoleChange)
+		ply:GiveEquipmentItem("item_ttt_radar")
+	end
+	
+	-- Remove Loadout on death and rolechange
+	function ROLE:RemoveRoleLoadout(ply, isRoleChange)
+		ply:RemoveEquipmentItem("item_ttt_radar")
+	end
 
 	local function ClearMali()
 		local plys = player.GetAll()
@@ -76,7 +85,7 @@ if SERVER then
 	end		
 
 	--We need the masked lion´s identity--
-
+	local MaliPly = ply
 
 	--When the masked lion kills his first colleague, he will be revealed--
 	if lion_killed_traitor then
