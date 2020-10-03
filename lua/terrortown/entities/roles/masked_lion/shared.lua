@@ -49,6 +49,13 @@ if CLIENT then
 		LANG.AddToLanguage("Deutsch", "search_role_" .. self.abbr, "Diese Person war der maskierte Löwe!")
 		LANG.AddToLanguage("Deutsch", "target_" .. self.name, "Löwe")
 		LANG.AddToLanguage("Deutsch", "ttt2_desc_" .. self.name, [[Du kannst nur als einsamer Wolf gewinnen. Du musst der letzte Stehende sein. Wenn die Ts gewinnen, wirst du verlieren. Aber Vorsicht: Wenn du den ersten Traitor ermordet hast, werden die anderen sehen, wer du wirklich bist!]])
+
+		LANG.AddToLanguage("Русский", self.name, "Лев в маске")
+		LANG.AddToLanguage("Русский", "info_popup_" .. self.name, [[Предатель в маске - это вы! Ваши партнёры видят в вас своего коллегу, но у вас другое отношение: вы хотите выиграть в одиночку! Но поторопитесь! Вы должны убить всех предателей, прежде чем они победят.]])
+		LANG.AddToLanguage("Русский", "body_found_" .. self.abbr, "Он был львом в маске!")
+		LANG.AddToLanguage("Русский", "search_role_" .. self.abbr, "Этот человек был львом в маске!")
+		LANG.AddToLanguage("Русский", "target_" .. self.name, "Лев")
+		LANG.AddToLanguage("Русский", "ttt2_desc_" .. self.name, [[Вы можете победить только волком-одиночкой. Вы должны быть последним выжившим. Когда предатели победят, вы проиграете. Но осторожно: когда вы убьёте первого предателя, остальные увидят ваше истинное отношение!]])
 	end
 end
 

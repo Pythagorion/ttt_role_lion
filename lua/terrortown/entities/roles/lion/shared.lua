@@ -58,6 +58,18 @@ if CLIENT then
 		LANG.AddToLanguage("Deutsch", "ev_win_" .. TEAM_LION, "Der böse Löwe hat die Runde gewonnen!")
 		LANG.AddToLanguage("Deutsch", "target_" .. LION.name, "Löwe")
 		LANG.AddToLanguage("Deutsch", "ttt2_desc_" .. LION.name, [[Du kannst nur als einsamer Wolf gewinnen. Du musst der letzte Stehende sein. Wenn die Ts gewinnen, wirst du verlieren. Aber Vorsicht: Wenn du den ersten Traitor ermordet hast, werden die anderen sehen, wer du wirklich bist!]])
+
+		LANG.AddToLanguage("Русский", LION.name, "Лев")
+		LANG.AddToLanguage("Русский", TEAM_LION, "Команда льва")
+		LANG.AddToLanguage("Русский", "hilite_win_" .. TEAM_LION, "ЛЕВ ВЫИГРАЛ")
+		LANG.AddToLanguage("Русский", "win_" .. TEAM_LION, "Лев победил!") -- teamname
+		LANG.AddToLanguage("Русский", "info_popup_" .. LION.name, [[Предатель в маске - это вы! Ваши партнёры видят в вас своего коллегу, но у вас другое отношение: вы хотите выиграть в одиночку! Но поторопитесь! Вы должны убить всех предателей, прежде чем они победят.]])
+		LANG.AddToLanguage("Русский", "body_found_" .. LION.abbr, "Он был львом!")
+		LANG.AddToLanguage("Русский", "search_role_" .. LION.abbr, "Этот человек был львом!")
+		LANG.AddToLanguage("Русский", "ev_win_" .. TEAM_LION, "Злой лев выиграл раунд!")
+		LANG.AddToLanguage("Русский", "target_" .. LION.name, "Лев")
+		LANG.AddToLanguage("Русский", "ttt2_desc_" .. LION.name, [[Вы можете победить только волком-одиночкой. Вы должны быть последним выжившим. Когда предатели победят, вы проиграете. Но осторожно: когда вы убьёте первого предателя, остальные увидят ваше истинное отношение!]])
+
 	end
 end
 
